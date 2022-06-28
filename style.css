@@ -107,9 +107,10 @@ body{
 .skill-title
 {
     font-size: 0.75rem;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
     padding: 1rem 0.5rem;
+    color: #f7f7f7;
 }
 
 .skills .box{
@@ -132,11 +133,8 @@ body{
 }
 
 .skills .box .progress-bar div{
-    position: relative;
-
-    height: 4px;
-    background:#f0f0f0;
     border: 1px white solid;
+    width: 100%;
 }
 
 

@@ -113,28 +113,18 @@ body{
     color: #f7f7f7;
 }
 
-.skills-content .box{
-    position: relative;
-    width:100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.skills-content .box h4{
-    text-transform: uppercase;
-    color: grey;
-    font-weight: 0.65rem;
+.skill-name{
     font-size: 0.65rem;
+    font-weight: 0.65rem;
     padding-bottom: 0.5rem;
     text-align: left;
+    color: #f7f7f7;
 }
+.progress-bar{
+border: 1px white solid;
+width: 100%;
 
-.skills-content .box .progress-bar div{
-    border: 1px white solid;
-    width: 100%;
+background-color: #f7f7f7;
 }
 
 
